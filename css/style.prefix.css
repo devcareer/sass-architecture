@@ -1,0 +1,27 @@
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  border: 1px solid red;
+  margin: 0 auto;
+  height: 100vh; }
+
+.parent {
+  height: 30vh;
+  border: 1px solid green;
+  padding: 20px; }
+  .parent__children {
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue; }
+    @media (min-width: 481px) and (max-width: 768px) {
+      .parent__children {
+        border-radius: 20px; } }
+    .parent__children--last {
+      border-color: black;
+      background-color: yellowgreen; }
+      @media (min-width: 300px) and (max-width: 480px) {
+        .parent__children--last {
+          background-color: #04647d; } }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLmNvbmNhdC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBO0VBQ0UsV0FBVztFQUNYLGlCQUFpQjtFQUNqQixxQkFBcUI7RUFDckIsY0FBYztFQUNkLGFBQWEsRUFBRTs7QUFFakI7RUFDRSxZQUFZO0VBQ1osdUJBQXVCO0VBQ3ZCLGFBQWEsRUFBRTtFQUNmO0lBQ0UsWUFBWTtJQUNaLGFBQWE7SUFDYixzQkFBc0IsRUFBRTtJQUN4QjtNQUNFO1FBQ0UsbUJBQW1CLEVBQUUsRUFBRTtJQUMzQjtNQUNFLG1CQUFtQjtNQUNuQiw2QkFBNkIsRUFBRTtNQUMvQjtRQUNFO1VBQ0UseUJBQXlCLEVBQUUsRUFBRSIsImZpbGUiOiJzdHlsZS5wcmVmaXguY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXG4uY29udGFpbmVyIHtcbiAgd2lkdGg6IDEwMCU7XG4gIG1heC13aWR0aDogMTIwMHB4O1xuICBib3JkZXI6IDFweCBzb2xpZCByZWQ7XG4gIG1hcmdpbjogMCBhdXRvO1xuICBoZWlnaHQ6IDEwMHZoOyB9XG5cbi5wYXJlbnQge1xuICBoZWlnaHQ6IDMwdmg7XG4gIGJvcmRlcjogMXB4IHNvbGlkIGdyZWVuO1xuICBwYWRkaW5nOiAyMHB4OyB9XG4gIC5wYXJlbnRfX2NoaWxkcmVuIHtcbiAgICB3aWR0aDogMTAwcHg7XG4gICAgaGVpZ2h0OiAxMDBweDtcbiAgICBib3JkZXI6IDFweCBzb2xpZCBibHVlOyB9XG4gICAgQG1lZGlhIChtaW4td2lkdGg6IDQ4MXB4KSBhbmQgKG1heC13aWR0aDogNzY4cHgpIHtcbiAgICAgIC5wYXJlbnRfX2NoaWxkcmVuIHtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogMjBweDsgfSB9XG4gICAgLnBhcmVudF9fY2hpbGRyZW4tLWxhc3Qge1xuICAgICAgYm9yZGVyLWNvbG9yOiBibGFjaztcbiAgICAgIGJhY2tncm91bmQtY29sb3I6IHllbGxvd2dyZWVuOyB9XG4gICAgICBAbWVkaWEgKG1pbi13aWR0aDogMzAwcHgpIGFuZCAobWF4LXdpZHRoOiA0ODBweCkge1xuICAgICAgICAucGFyZW50X19jaGlsZHJlbi0tbGFzdCB7XG4gICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzA0NjQ3ZDsgfSB9XG4iXX0= */

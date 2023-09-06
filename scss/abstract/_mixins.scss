@@ -1,0 +1,35 @@
+//Media queries for screen sizes
+
+@mixin for-phone-only {
+  @media (min-width: 300px) and (max-width: 480px) {
+    @content;
+  }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 481px) and (max-width: 768px) {
+    @content;
+  }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 769px) and (max-width: 1024px) {
+    @content;
+  }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1025px) and (max-width: 1200px) {
+    @content;
+  }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1201px) {
+    @content;
+  }
+}
+
+//Custom media query
+
+@mixin custom-query($min-width, $max-width) {
+  @media (min-width: $min-width) and (max-width: $max-width) {
+    @content;
+  }
+}
